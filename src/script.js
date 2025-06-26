@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const slotList = document.getElementById("slot-list");
 
   function fetchSlots() {
-    fetch("http://localhost:3000/slots")
+    fetch("https://json-server-kyex.onrender.com/slots")
       .then(res => res.json())
       .then(slots => {
         slotList.innerHTML = "";
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function toggleBooking(slot) {
     const updated = { booked: !slot.booked };
 
-    fetch(`http://localhost:3000/slots/${slot.id}`, {
+    fetch(`https://json-server-kyex.onrender.com/slots/${slot.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
@@ -49,14 +49,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   fetchSlots();
 });
-
-
-
-
-
-
-
-
-
 
 

@@ -13,7 +13,7 @@
     {
       "id": "3",
       "time": "Tuesday 10AM",
-      "booked": true
+      "booked": false
     },
     {
       "id": "4",
@@ -23,12 +23,12 @@
     {
       "id": "5",
       "time": "Wednesday 8AM",
-      "booked": false
+      "booked": true
     },
     {
       "id": "6",
       "time": "Wednesday 2PM",
-      "booked": true
+      "booked": false
     },
     {
       "id": "7",
@@ -48,12 +48,12 @@
     {
       "id": "10",
       "time": "Friday 1PM",
-      "booked": true
+      "booked": false
     },
     {
       "id": "11",
       "time": "Saturday 10AM",
-      "booked": false
+      "booked": true
     },
     {
       "id": "12",
@@ -63,7 +63,7 @@
     {
       "id": "13",
       "time": "Sunday 11AM",
-      "booked": true
+      "booked": false
     },
     {
       "id": "14",
